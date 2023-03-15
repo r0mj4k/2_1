@@ -1,5 +1,10 @@
+import java.util.*;
+
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    // Scanner scanner = new Scanner(System.in);
+    // String text = scanner.nextString();
+    String text = "Hello world";
+    System.out.println(text.replace(" ", "_"));
+    }
   }
-}
